@@ -91,7 +91,7 @@
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  box-shadow: inset 0 0 0 1px rgba(14, 10, 24, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(6, 6, 8, 0.18);
   pointer-events: none;
 }
 

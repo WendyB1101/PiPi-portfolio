@@ -39,7 +39,7 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--frost);
-  background: rgba(14, 10, 24, 0.78);
+  background: rgba(6, 6, 8, 0.78);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   pointer-events: none;

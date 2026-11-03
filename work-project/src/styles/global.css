@@ -1,12 +1,12 @@
 /* ─────────────────────────────────────────────────────────────
-   Design tokens & foundations — black and dark purple, blue-lavender accents
+   Design tokens & foundations — deep black, soft off-white text, blue-lavender accents
    ───────────────────────────────────────────────────────────── */
 
 :root {
-  /* black-purple base, with blue-lavender accents */
-  --navy-900: #0b0812;
-  --navy-800: #110c1c;
-  --navy-700: #1c1330;
+  /* near-black base (a hint of cool, never purple), with blue-lavender accents */
+  --navy-900: #040405;
+  --navy-800: #070709;
+  --navy-700: #111115;
   --blue-600: #2b4b7e;
   --blue-500: #3a619d;
   --blue-400: #4a78c2;
@@ -17,13 +17,13 @@
   --frost: #dce9fa;
   --glow: #a9dcff;
 
-  --text: #f2f6fc;
-  --text-dim: rgba(226, 236, 250, 0.72);
-  --text-faint: rgba(214, 228, 248, 0.48);
-  --line: rgba(200, 190, 245, 0.13);
-  --line-strong: rgba(200, 190, 245, 0.26);
-  --surface: rgba(20, 13, 34, 0.45);
-  --surface-2: rgba(30, 20, 50, 0.6);
+  --text: #ececf0;
+  --text-dim: rgba(232, 234, 242, 0.70);
+  --text-faint: rgba(232, 234, 242, 0.50);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.17);
+  --surface: rgba(18, 18, 23, 0.55);
+  --surface-2: rgba(26, 26, 33, 0.7);
 
   --font-display: 'Fraunces Variable', 'Fraunces', Georgia, serif;
   --font-body: 'DM Sans Variable', 'DM Sans', system-ui, sans-serif;
@@ -97,7 +97,7 @@ a {
 }
 
 ::selection {
-  background: rgba(130, 100, 210, 0.5);
+  background: rgba(107, 147, 214, 0.45);
   color: #fff;
 }
 
@@ -107,19 +107,17 @@ a {
   border-radius: 6px;
 }
 
-/* ── Backdrop: black blended with layers of dark purple, never one flat colour ── */
+/* ── Backdrop: deep black with a few faint cool glows so it never looks flat ── */
 .backdrop {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(70vw 60vh at 6% -10%, rgba(92, 48, 150, 0.5), transparent 62%),
-    radial-gradient(55vw 55vh at 102% 20%, rgba(64, 38, 128, 0.42), transparent 64%),
-    radial-gradient(60vw 60vh at -8% 80%, rgba(72, 28, 104, 0.4), transparent 62%),
-    radial-gradient(60vw 50vh at 96% 106%, rgba(86, 52, 160, 0.34), transparent 60%),
-    radial-gradient(40vw 40vh at 50% 50%, rgba(30, 18, 52, 0.6), transparent 70%),
-    linear-gradient(165deg, #0d0915 0%, #130c20 38%, #09070f 70%, #110b1c 100%);
+    radial-gradient(70vw 60vh at 6% -10%, rgba(70, 80, 150, 0.16), transparent 62%),
+    radial-gradient(55vw 55vh at 102% 20%, rgba(80, 64, 140, 0.1), transparent 64%),
+    radial-gradient(60vw 50vh at 96% 106%, rgba(60, 90, 160, 0.1), transparent 60%),
+    linear-gradient(165deg, #070709 0%, #0a0a0d 40%, #040405 72%, #08080a 100%);
 }
 
 .backdrop::after {
@@ -127,7 +125,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(115deg, transparent 30%, rgba(214, 200, 250, 0.035) 48%, transparent 62%);
+  background: linear-gradient(115deg, transparent 30%, rgba(220, 225, 255, 0.02) 48%, transparent 62%);
 }
 
 .grain {
@@ -135,7 +133,7 @@ a {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.05;
+  opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .35 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 

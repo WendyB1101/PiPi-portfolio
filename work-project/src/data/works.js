@@ -5,11 +5,11 @@
 
 export const chapters = [
   {
-    id: 'animation',
+    id: 'clip-studio-paint',
     numeral: 'I',
-    title: 'Animation',
+    title: 'Clip Studio Paint',
     craft: 'Key Animation · Second Key · Effects',
-    lede: 'Rough keys, clean second keys ready for inbetweening, and effects-driven action with smears and impact frames.',
+    lede: 'Animated in Clip Studio Paint: rough keys, clean second keys ready for inbetweening, and effects-driven action with smears and impact frames.',
     accent: '#8fb4ec',
     accent2: '#5f8fd6',
     emblem: 'film',
@@ -40,9 +40,9 @@ export const chapters = [
   {
     id: 'opentoonz',
     numeral: 'IV',
-    title: 'OpenToonz × Clip Studio',
-    craft: 'Full Colour Animation · Acting · Sound',
-    lede: 'Finished full-colour scenes made with OpenToonz and Clip Studio Paint together: drawn in Clip Studio, animated and composited in OpenToonz, with character acting and sound.',
+    title: 'OpenToonz',
+    craft: 'Full Colour Animation · Action · Sound',
+    lede: 'Animated in OpenToonz: full-colour scenes with character acting, an action sequence broken down cut by cut, and line-to-colour process recordings, all with sound.',
     accent: '#7fc4e6',
     accent2: '#4f86c6',
     emblem: 'reel',
@@ -62,58 +62,58 @@ export const chapters = [
 ]
 
 export const works = [
-  /* ── I · Animation ── */
+  /* ── I · Clip Studio Paint ── */
   {
     slug: 'wind-cleaving-blade',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 29, width: 2560, height: 1440, audio: false,
   },
   {
     slug: 'starlit-resolve',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 30, width: 2560, height: 1440, audio: false,
   },
   {
     slug: 'laughter-in-the-wind',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 32, width: 1920, height: 1080, audio: false,
   },
   {
     slug: 'peekaboo-prince',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 61, width: 1920, height: 1080, audio: true,
   },
   {
     slug: 'emerald-ribbon',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 29, width: 1080, height: 1080, audio: false,
   },
   {
     slug: 'hello-across-the-street',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 158, width: 1760, height: 1250, audio: false,
   },
   {
     slug: 'the-reaching-hand',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 75, width: 1762, height: 1256, audio: false,
   },
   {
     slug: 'nightbloom-first-key',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 24, frames: 147, width: 1920, height: 1080, audio: true,
   },
   {
     slug: 'nightbloom-second-key',
-    chapter: 'animation',
+    chapter: 'clip-studio-paint',
     type: 'video',
     fps: 30, frames: 184, width: 1920, height: 1080, audio: false,
   },
@@ -143,7 +143,7 @@ export const works = [
     slug: 'pastel-peace',
     chapter: 'character-design',
     type: 'image',
-    width: 1775, height: 1889,
+    width: 1733, height: 1972,
   },
   {
     slug: 'electric-resolve',
@@ -155,7 +155,19 @@ export const works = [
     slug: 'midnight-blue',
     chapter: 'character-design',
     type: 'image',
+    width: 894, height: 1500,
+  },
+  {
+    slug: 'beret-breeze',
+    chapter: 'character-design',
+    type: 'image',
     width: 1080, height: 1500,
+  },
+  {
+    slug: 'doorway-shock',
+    chapter: 'character-design',
+    type: 'image',
+    width: 901, height: 1186,
   },
 
   /* ── III · Comic Book ── */
@@ -172,7 +184,7 @@ export const works = [
     width: 612, height: 792,
   },
 
-  /* ── IV · OpenToonz × Clip Studio ── */
+  /* ── IV · OpenToonz ── */
   {
     slug: 'titans-of-the-park',
     chapter: 'opentoonz',
@@ -191,6 +203,31 @@ export const works = [
     type: 'video',
     fps: 8, frames: 33, width: 1920, height: 1080, audio: true,
   },
+  {
+    slug: 'quiet-gaze',
+    chapter: 'opentoonz',
+    type: 'video',
+    fps: 30, frames: 686, width: 1706, height: 1080, audio: true,
+  },
+  {
+    slug: 'street-duo',
+    chapter: 'opentoonz',
+    type: 'video',
+    fps: 30, frames: 449, width: 1920, height: 1080, audio: true,
+  },
+  {
+    slug: 'clash-of-crowns',
+    chapter: 'opentoonz',
+    type: 'video',
+    keys: ['clash-of-crowns-a', 'clash-of-crowns-b', 'clash-of-crowns-c', 'clash-of-crowns-d', 'clash-of-crowns-e', 'clash-of-crowns-f'],
+    fps: 30, frames: 470, width: 1920, height: 1080, audio: true,
+  },
+  { slug: 'clash-of-crowns-a', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 79, width: 1920, height: 1080, audio: true },
+  { slug: 'clash-of-crowns-b', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 45, width: 1920, height: 1080, audio: true },
+  { slug: 'clash-of-crowns-c', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 60, width: 1920, height: 1080, audio: true },
+  { slug: 'clash-of-crowns-d', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 139, width: 1920, height: 1080, audio: true },
+  { slug: 'clash-of-crowns-e', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 97, width: 1920, height: 1080, audio: true },
+  { slug: 'clash-of-crowns-f', chapter: 'opentoonz', type: 'video', part: true, fps: 30, frames: 52, width: 1920, height: 1080, audio: true },
 
   /* ── V · Other Works ── */
   {
@@ -237,7 +274,8 @@ export const workBySlug = Object.fromEntries(works.map((w) => [w.slug, w]))
 export const chapterById = Object.fromEntries(chapters.map((c) => [c.id, c]))
 export const visibleWorks = works.filter((w) => !w.hidden)
 export const worksIn = (chapterId) => visibleWorks.filter((w) => w.chapter === chapterId)
-export const totalFrames = works.reduce((sum, w) => sum + (w.frames || 0), 0)
+// Clips marked `part` are cut from a longer piece, so their frames are already counted.
+export const totalFrames = works.reduce((sum, w) => sum + (w.part ? 0 : w.frames || 0), 0)
 export const imageCount = visibleWorks.filter((w) => w.type === 'image').length + works.filter((w) => w.compareWith).length
 export const videoCount = visibleWorks.filter((w) => w.type === 'video').length
 

@@ -1,6 +1,6 @@
-# PIPIK · Once Upon a Frame
+# Mizuki · Once Upon a Frame
 
-A storybook-style portfolio for PIPIK, a 2D animator and illustrator. There's a velvet theater curtain, a moonlit kingdom, puppets and creatures floating in from every edge, and five chapters of work, each with its own color.
+A storybook-style portfolio for Mizuki, a 2D animator and illustrator. There's a velvet theater curtain, a moonlit kingdom, puppets and creatures floating in from every edge, and five chapters of work, each with its own color.
 
 ## Run it
 
@@ -54,10 +54,10 @@ ffmpeg -ss 0.5 -i input.mov -frames:v 1 -q:v 3 public/media/my-slug.jpg
 
 | # | Chapter | Source folder | Contents | Layout | Color |
 | --- | --- | --- | --- | --- | --- |
-| I | Animation | `animation` | 9 key / second-key clips | grid | lilac / sky |
-| II | Character Design | `charactor desgine` | 5 illustrations + a line-art slider | gallery | rose / peach |
+| I | Clip Studio Paint | `clip studio paint` | 9 key / second-key clips | grid | lilac / sky |
+| II | Character Design | `New folder`, `port` | 5 illustrations + a line-art slider | gallery | rose / peach |
 | III | Comic Book | `comic book` | 2 pages | book | gold / coral |
-| IV | OpenToonz | `opentoonz` | 3 full-color scenes with sound | grid | cyan / violet |
+| IV | OpenToonz | `opentoonz` | 3 full-colour scenes, 2 line-to-colour process videos, and an action cut with its 6 parts, all with sound | grid | cyan / violet |
 | V | Other Works | `other` | 2 chibi animations with key poses + a vertical piece | mixed | mint / sky |
 
 ## Features

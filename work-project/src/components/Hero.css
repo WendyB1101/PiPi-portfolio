@@ -106,8 +106,8 @@
   inset: -10% -6%;
   z-index: -1;
   background:
-    radial-gradient(closest-side at 30% 40%, rgba(118, 76, 196, 0.42), transparent),
-    radial-gradient(closest-side at 75% 70%, rgba(74, 110, 200, 0.3), transparent);
+    radial-gradient(closest-side at 30% 40%, rgba(90, 100, 190, 0.22), transparent),
+    radial-gradient(closest-side at 75% 70%, rgba(74, 110, 200, 0.18), transparent);
   filter: blur(30px);
 }
 

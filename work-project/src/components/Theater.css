@@ -11,7 +11,7 @@
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: rgba(6, 4, 10, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   cursor: zoom-out;
 }
 
@@ -29,8 +29,8 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(60vw 50vh at 20% 10%, rgba(92, 48, 150, 0.35), transparent 70%),
-    radial-gradient(60vw 50vh at 90% 100%, rgba(64, 38, 128, 0.3), transparent 70%);
+    radial-gradient(60vw 50vh at 20% 10%, rgba(70, 80, 150, 0.14), transparent 70%),
+    radial-gradient(60vw 50vh at 90% 100%, rgba(80, 64, 140, 0.1), transparent 70%);
 }
 
 .theater-shell {
@@ -41,7 +41,7 @@
   flex-direction: column;
   border-radius: 16px;
   overflow: hidden;
-  background: linear-gradient(170deg, rgba(30, 20, 50, 0.97), rgba(10, 7, 18, 0.98));
+  background: linear-gradient(170deg, rgba(18, 18, 23, 0.97), rgba(6, 6, 8, 0.98));
   box-shadow:
     0 0 0 1px color-mix(in srgb, var(--accent) 40%, transparent),
     0 60px 140px -40px rgba(0, 0, 0, 0.9),
@@ -130,7 +130,7 @@
   flex: 1;
   border-radius: 10px;
   overflow: hidden;
-  background: #08060d;
+  background: #050506;
   display: grid;
   place-items: center;
   min-height: 0;
@@ -154,7 +154,7 @@
   cursor: zoom-in;
   background:
     radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.06), transparent 70%),
-    #08060d;
+    #050506;
 }
 
 .theater-still.is-zoomed {
@@ -185,7 +185,7 @@
   border-radius: 999px;
   font-size: 12px;
   color: var(--text-dim);
-  background: rgba(14, 10, 24, 0.78);
+  background: rgba(6, 6, 8, 0.78);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   pointer-events: none;
@@ -246,7 +246,7 @@
   display: grid;
   place-items: center;
   color: #fff;
-  background: rgba(14, 10, 24, 0.4);
+  background: rgba(6, 6, 8, 0.4);
 }
 
 .theater-family i svg {
@@ -267,7 +267,7 @@
   letter-spacing: 0.16em;
   font-variant-numeric: tabular-nums;
   color: var(--text-dim);
-  background: rgba(14, 10, 24, 0.78);
+  background: rgba(6, 6, 8, 0.78);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }

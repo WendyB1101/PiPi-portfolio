@@ -1,6 +1,6 @@
 .about {
   border-block: 1px solid var(--line);
-  background: linear-gradient(180deg, rgba(14, 10, 24, 0.28), rgba(60, 34, 98, 0.18) 60%, rgba(14, 10, 24, 0.2));
+  background: linear-gradient(180deg, rgba(6, 6, 8, 0.28), rgba(40, 48, 80, 0.08) 60%, rgba(6, 6, 8, 0.2));
 }
 
 .about-grid {
@@ -125,7 +125,7 @@
 
 .about-pipeline li.is-mine {
   color: var(--text);
-  background: linear-gradient(160deg, rgba(128, 96, 214, 0.3), rgba(60, 44, 128, 0.2));
+  background: linear-gradient(160deg, rgba(107, 147, 214, 0.22), rgba(58, 97, 157, 0.14));
   box-shadow: inset 0 0 0 1px rgba(169, 220, 255, 0.35);
 }
 
